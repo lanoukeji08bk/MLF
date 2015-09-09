@@ -37,6 +37,8 @@
 		C70F019E1BA014EF001930DB /* StarFavorCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C70F019D1BA014EF001930DB /* StarFavorCollectionViewCell.m */; };
 		C70F01A11BA01BF7001930DB /* SelectionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C70F01A01BA01BF7001930DB /* SelectionDetailViewController.m */; };
 		C70F01A41BA01C9E001930DB /* SelectionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C70F01A31BA01C9E001930DB /* SelectionTableViewCell.m */; };
+		C70F01A91BA02CFD001930DB /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C70F01A61BA02CFD001930DB /* LeftViewController.m */; };
+		C70F01AA1BA02CFD001930DB /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C70F01A81BA02CFD001930DB /* RightViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +111,10 @@
 		C70F01A01BA01BF7001930DB /* SelectionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionDetailViewController.m; sourceTree = "<group>"; };
 		C70F01A21BA01C9E001930DB /* SelectionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionTableViewCell.h; sourceTree = "<group>"; };
 		C70F01A31BA01C9E001930DB /* SelectionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionTableViewCell.m; sourceTree = "<group>"; };
+		C70F01A51BA02CFD001930DB /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		C70F01A61BA02CFD001930DB /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		C70F01A71BA02CFD001930DB /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		C70F01A81BA02CFD001930DB /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +171,10 @@
 				C70F01461BA0093C001930DB /* MLFNavigationController.m */,
 				C70F01391BA00438001930DB /* WelcomeViewController.h */,
 				C70F013A1BA00438001930DB /* WelcomeViewController.m */,
+				C70F01A51BA02CFD001930DB /* LeftViewController.h */,
+				C70F01A61BA02CFD001930DB /* LeftViewController.m */,
+				C70F01A71BA02CFD001930DB /* RightViewController.h */,
+				C70F01A81BA02CFD001930DB /* RightViewController.m */,
 				C70F011D1BA003B4001930DB /* Main.storyboard */,
 				C70F01201BA003B4001930DB /* Images.xcassets */,
 				C70F01221BA003B4001930DB /* LaunchScreen.xib */,
@@ -507,8 +517,10 @@
 				C70F019E1BA014EF001930DB /* StarFavorCollectionViewCell.m in Sources */,
 				C70F01871BA00F89001930DB /* HAScrollNavBar.m in Sources */,
 				C70F018B1BA00F89001930DB /* UIColor+RGBA.m in Sources */,
+				C70F01A91BA02CFD001930DB /* LeftViewController.m in Sources */,
 				C70F015D1BA00B66001930DB /* StarFavorCollectionViewController.m in Sources */,
 				C70F01471BA0093C001930DB /* MLFNavigationController.m in Sources */,
+				C70F01AA1BA02CFD001930DB /* RightViewController.m in Sources */,
 				C70F016A1BA00F0F001930DB /* WWSideslipViewController.m in Sources */,
 				C70F019B1BA01248001930DB /* SelectionTableViewController.m in Sources */,
 				C70F01631BA00B85001930DB /* SearchCollectionViewController.m in Sources */,
