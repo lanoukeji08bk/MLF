@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C70F01161BA003B4001930DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C70F01151BA003B4001930DB /* main.m */; };
+		C70F01191BA003B4001930DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C70F01181BA003B4001930DB /* AppDelegate.m */; };
+		C70F011F1BA003B4001930DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C70F011D1BA003B4001930DB /* Main.storyboard */; };
+		C70F01211BA003B4001930DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C70F01201BA003B4001930DB /* Images.xcassets */; };
+		C70F01241BA003B4001930DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C70F01221BA003B4001930DB /* LaunchScreen.xib */; };
+		C70F01301BA003B4001930DB /* MLFTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C70F012F1BA003B4001930DB /* MLFTests.m */; };
+		C70F013B1BA00438001930DB /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C70F013A1BA00438001930DB /* WelcomeViewController.m */; };
+		C70F01441BA008FA001930DB /* MLFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C70F01431BA008FA001930DB /* MLFTabBarController.m */; };
+		C70F01471BA0093C001930DB /* MLFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C70F01461BA0093C001930DB /* MLFNavigationController.m */; };
+		C70F015D1BA00B66001930DB /* StarFavorCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C70F015C1BA00B66001930DB /* StarFavorCollectionViewController.m */; };
+		C70F01601BA00B78001930DB /* CategoryCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C70F015F1BA00B78001930DB /* CategoryCollectionViewController.m */; };
+		C70F01631BA00B85001930DB /* SearchCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C70F01621BA00B85001930DB /* SearchCollectionViewController.m */; };
+		C70F01661BA00EC6001930DB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C70F01651BA00EC6001930DB /* MainViewController.m */; };
+		C70F016A1BA00F0F001930DB /* WWSideslipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C70F01691BA00F0F001930DB /* WWSideslipViewController.m */; };
+		C70F01821BA00F89001930DB /* HACursor.m in Sources */ = {isa = PBXBuildFile; fileRef = C70F016D1BA00F89001930DB /* HACursor.m */; };
+		C70F01831BA00F89001930DB /* HAItemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C70F016F1BA00F89001930DB /* HAItemManager.m */; };
+		C70F01841BA00F89001930DB /* HARootScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C70F01721BA00F89001930DB /* HARootScrollView.m */; };
+		C70F01851BA00F89001930DB /* HARootScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C70F01741BA00F89001930DB /* HARootScrollViewCell.m */; };
+		C70F01861BA00F89001930DB /* HARootScrollViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C70F01761BA00F89001930DB /* HARootScrollViewManager.m */; };
+		C70F01871BA00F89001930DB /* HAScrollNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C70F01781BA00F89001930DB /* HAScrollNavBar.m */; };
+		C70F01881BA00F89001930DB /* HASortButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C70F017A1BA00F89001930DB /* HASortButton.m */; };
+		C70F01891BA00F89001930DB /* HASortItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = C70F017C1BA00F89001930DB /* HASortItemView.m */; };
+		C70F018A1BA00F89001930DB /* icons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C70F017D1BA00F89001930DB /* icons.bundle */; };
+		C70F018B1BA00F89001930DB /* UIColor+RGBA.m in Sources */ = {isa = PBXBuildFile; fileRef = C70F017F1BA00F89001930DB /* UIColor+RGBA.m */; };
+		C70F018C1BA00F89001930DB /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C70F01811BA00F89001930DB /* UIView+Extension.m */; };
+		C70F01981BA010D3001930DB /* SelectionTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C70F01971BA010D3001930DB /* SelectionTableView.m */; };
+		C70F019B1BA01248001930DB /* SelectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C70F019A1BA01248001930DB /* SelectionTableViewController.m */; };
+		C70F019E1BA014EF001930DB /* StarFavorCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C70F019D1BA014EF001930DB /* StarFavorCollectionViewCell.m */; };
+		C70F01A11BA01BF7001930DB /* SelectionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C70F01A01BA01BF7001930DB /* SelectionDetailViewController.m */; };
+		C70F01A41BA01C9E001930DB /* SelectionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C70F01A31BA01C9E001930DB /* SelectionTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C70F012A1BA003B4001930DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C70F01081BA003B4001930DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C70F010F1BA003B4001930DB;
+			remoteInfo = MLF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C70F01101BA003B4001930DB /* MLF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C70F01141BA003B4001930DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C70F01151BA003B4001930DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C70F01171BA003B4001930DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C70F01181BA003B4001930DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C70F011E1BA003B4001930DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C70F01201BA003B4001930DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C70F01231BA003B4001930DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C70F01291BA003B4001930DB /* MLFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C70F012E1BA003B4001930DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C70F012F1BA003B4001930DB /* MLFTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLFTests.m; sourceTree = "<group>"; };
+		C70F01391BA00438001930DB /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		C70F013A1BA00438001930DB /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		C70F013E1BA004C1001930DB /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		C70F01421BA008FA001930DB /* MLFTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLFTabBarController.h; sourceTree = "<group>"; };
+		C70F01431BA008FA001930DB /* MLFTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLFTabBarController.m; sourceTree = "<group>"; };
+		C70F01451BA0093C001930DB /* MLFNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLFNavigationController.h; sourceTree = "<group>"; };
+		C70F01461BA0093C001930DB /* MLFNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLFNavigationController.m; sourceTree = "<group>"; };
+		C70F015B1BA00B66001930DB /* StarFavorCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarFavorCollectionViewController.h; sourceTree = "<group>"; };
+		C70F015C1BA00B66001930DB /* StarFavorCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarFavorCollectionViewController.m; sourceTree = "<group>"; };
+		C70F015E1BA00B78001930DB /* CategoryCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryCollectionViewController.h; sourceTree = "<group>"; };
+		C70F015F1BA00B78001930DB /* CategoryCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryCollectionViewController.m; sourceTree = "<group>"; };
+		C70F01611BA00B85001930DB /* SearchCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchCollectionViewController.h; sourceTree = "<group>"; };
+		C70F01621BA00B85001930DB /* SearchCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchCollectionViewController.m; sourceTree = "<group>"; };
+		C70F01641BA00EC6001930DB /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C70F01651BA00EC6001930DB /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C70F01681BA00F0F001930DB /* WWSideslipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWSideslipViewController.h; sourceTree = "<group>"; };
+		C70F01691BA00F0F001930DB /* WWSideslipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWSideslipViewController.m; sourceTree = "<group>"; };
+		C70F016C1BA00F89001930DB /* HACursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HACursor.h; sourceTree = "<group>"; };
+		C70F016D1BA00F89001930DB /* HACursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HACursor.m; sourceTree = "<group>"; };
+		C70F016E1BA00F89001930DB /* HAItemManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAItemManager.h; sourceTree = "<group>"; };
+		C70F016F1BA00F89001930DB /* HAItemManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAItemManager.m; sourceTree = "<group>"; };
+		C70F01711BA00F89001930DB /* HARootScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HARootScrollView.h; sourceTree = "<group>"; };
+		C70F01721BA00F89001930DB /* HARootScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HARootScrollView.m; sourceTree = "<group>"; };
+		C70F01731BA00F89001930DB /* HARootScrollViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HARootScrollViewCell.h; sourceTree = "<group>"; };
+		C70F01741BA00F89001930DB /* HARootScrollViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HARootScrollViewCell.m; sourceTree = "<group>"; };
+		C70F01751BA00F89001930DB /* HARootScrollViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HARootScrollViewManager.h; sourceTree = "<group>"; };
+		C70F01761BA00F89001930DB /* HARootScrollViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HARootScrollViewManager.m; sourceTree = "<group>"; };
+		C70F01771BA00F89001930DB /* HAScrollNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAScrollNavBar.h; sourceTree = "<group>"; };
+		C70F01781BA00F89001930DB /* HAScrollNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAScrollNavBar.m; sourceTree = "<group>"; };
+		C70F01791BA00F89001930DB /* HASortButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HASortButton.h; sourceTree = "<group>"; };
+		C70F017A1BA00F89001930DB /* HASortButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HASortButton.m; sourceTree = "<group>"; };
+		C70F017B1BA00F89001930DB /* HASortItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HASortItemView.h; sourceTree = "<group>"; };
+		C70F017C1BA00F89001930DB /* HASortItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HASortItemView.m; sourceTree = "<group>"; };
+		C70F017D1BA00F89001930DB /* icons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = icons.bundle; sourceTree = "<group>"; };
+		C70F017E1BA00F89001930DB /* UIColor+RGBA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RGBA.h"; sourceTree = "<group>"; };
+		C70F017F1BA00F89001930DB /* UIColor+RGBA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGBA.m"; sourceTree = "<group>"; };
+		C70F01801BA00F89001930DB /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		C70F01811BA00F89001930DB /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		C70F01961BA010D3001930DB /* SelectionTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionTableView.h; sourceTree = "<group>"; };
+		C70F01971BA010D3001930DB /* SelectionTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionTableView.m; sourceTree = "<group>"; };
+		C70F01991BA01248001930DB /* SelectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionTableViewController.h; sourceTree = "<group>"; };
+		C70F019A1BA01248001930DB /* SelectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionTableViewController.m; sourceTree = "<group>"; };
+		C70F019C1BA014EF001930DB /* StarFavorCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarFavorCollectionViewCell.h; sourceTree = "<group>"; };
+		C70F019D1BA014EF001930DB /* StarFavorCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarFavorCollectionViewCell.m; sourceTree = "<group>"; };
+		C70F019F1BA01BF7001930DB /* SelectionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionDetailViewController.h; sourceTree = "<group>"; };
+		C70F01A01BA01BF7001930DB /* SelectionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionDetailViewController.m; sourceTree = "<group>"; };
+		C70F01A21BA01C9E001930DB /* SelectionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionTableViewCell.h; sourceTree = "<group>"; };
+		C70F01A31BA01C9E001930DB /* SelectionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C70F010D1BA003B4001930DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70F01261BA003B4001930DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C70F01071BA003B4001930DB = {
+			isa = PBXGroup;
+			children = (
+				C70F01121BA003B4001930DB /* MLF */,
+				C70F012C1BA003B4001930DB /* MLFTests */,
+				C70F01111BA003B4001930DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C70F01111BA003B4001930DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C70F01101BA003B4001930DB /* MLF.app */,
+				C70F01291BA003B4001930DB /* MLFTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C70F01121BA003B4001930DB /* MLF */ = {
+			isa = PBXGroup;
+			children = (
+				C70F016B1BA00F89001930DB /* HACursor */,
+				C70F01671BA00F0F001930DB /* WWSideslipViewControllerClass */,
+				C70F01501BA00A6F001930DB /* Selection */,
+				C70F01541BA00A6F001930DB /* StarFavor */,
+				C70F01481BA00A6F001930DB /* Category */,
+				C70F014C1BA00A6F001930DB /* Search */,
+				C70F013D1BA004B6001930DB /* Other */,
+				C70F01171BA003B4001930DB /* AppDelegate.h */,
+				C70F01181BA003B4001930DB /* AppDelegate.m */,
+				C70F01421BA008FA001930DB /* MLFTabBarController.h */,
+				C70F01431BA008FA001930DB /* MLFTabBarController.m */,
+				C70F01451BA0093C001930DB /* MLFNavigationController.h */,
+				C70F01461BA0093C001930DB /* MLFNavigationController.m */,
+				C70F01391BA00438001930DB /* WelcomeViewController.h */,
+				C70F013A1BA00438001930DB /* WelcomeViewController.m */,
+				C70F011D1BA003B4001930DB /* Main.storyboard */,
+				C70F01201BA003B4001930DB /* Images.xcassets */,
+				C70F01221BA003B4001930DB /* LaunchScreen.xib */,
+				C70F01131BA003B4001930DB /* Supporting Files */,
+			);
+			path = MLF;
+			sourceTree = "<group>";
+		};
+		C70F01131BA003B4001930DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C70F01141BA003B4001930DB /* Info.plist */,
+				C70F01151BA003B4001930DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C70F012C1BA003B4001930DB /* MLFTests */ = {
+			isa = PBXGroup;
+			children = (
+				C70F012F1BA003B4001930DB /* MLFTests.m */,
+				C70F012D1BA003B4001930DB /* Supporting Files */,
+			);
+			path = MLFTests;
+			sourceTree = "<group>";
+		};
+		C70F012D1BA003B4001930DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C70F012E1BA003B4001930DB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C70F013D1BA004B6001930DB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C70F013E1BA004C1001930DB /* Define.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		C70F01481BA00A6F001930DB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C70F01491BA00A6F001930DB /* Controller */,
+				C70F014A1BA00A6F001930DB /* Model */,
+				C70F014B1BA00A6F001930DB /* View */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C70F01491BA00A6F001930DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C70F015E1BA00B78001930DB /* CategoryCollectionViewController.h */,
+				C70F015F1BA00B78001930DB /* CategoryCollectionViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C70F014A1BA00A6F001930DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C70F014B1BA00A6F001930DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C70F014C1BA00A6F001930DB /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				C70F014D1BA00A6F001930DB /* Controller */,
+				C70F014E1BA00A6F001930DB /* Model */,
+				C70F014F1BA00A6F001930DB /* View */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		C70F014D1BA00A6F001930DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C70F01611BA00B85001930DB /* SearchCollectionViewController.h */,
+				C70F01621BA00B85001930DB /* SearchCollectionViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C70F014E1BA00A6F001930DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C70F014F1BA00A6F001930DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C70F01501BA00A6F001930DB /* Selection */ = {
+			isa = PBXGroup;
+			children = (
+				C70F01511BA00A6F001930DB /* Controller */,
+				C70F01521BA00A6F001930DB /* Model */,
+				C70F01531BA00A6F001930DB /* View */,
+			);
+			path = Selection;
+			sourceTree = "<group>";
+		};
+		C70F01511BA00A6F001930DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C70F01641BA00EC6001930DB /* MainViewController.h */,
+				C70F01651BA00EC6001930DB /* MainViewController.m */,
+				C70F01991BA01248001930DB /* SelectionTableViewController.h */,
+				C70F019A1BA01248001930DB /* SelectionTableViewController.m */,
+				C70F019F1BA01BF7001930DB /* SelectionDetailViewController.h */,
+				C70F01A01BA01BF7001930DB /* SelectionDetailViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C70F01521BA00A6F001930DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C70F01531BA00A6F001930DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C70F01961BA010D3001930DB /* SelectionTableView.h */,
+				C70F01971BA010D3001930DB /* SelectionTableView.m */,
+				C70F01A21BA01C9E001930DB /* SelectionTableViewCell.h */,
+				C70F01A31BA01C9E001930DB /* SelectionTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C70F01541BA00A6F001930DB /* StarFavor */ = {
+			isa = PBXGroup;
+			children = (
+				C70F01551BA00A6F001930DB /* Controller */,
+				C70F01561BA00A6F001930DB /* Model */,
+				C70F01571BA00A6F001930DB /* View */,
+			);
+			path = StarFavor;
+			sourceTree = "<group>";
+		};
+		C70F01551BA00A6F001930DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C70F015B1BA00B66001930DB /* StarFavorCollectionViewController.h */,
+				C70F015C1BA00B66001930DB /* StarFavorCollectionViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C70F01561BA00A6F001930DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C70F01571BA00A6F001930DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C70F019C1BA014EF001930DB /* StarFavorCollectionViewCell.h */,
+				C70F019D1BA014EF001930DB /* StarFavorCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C70F01671BA00F0F001930DB /* WWSideslipViewControllerClass */ = {
+			isa = PBXGroup;
+			children = (
+				C70F01681BA00F0F001930DB /* WWSideslipViewController.h */,
+				C70F01691BA00F0F001930DB /* WWSideslipViewController.m */,
+			);
+			name = WWSideslipViewControllerClass;
+			path = ../WWSideslipViewControllerClass;
+			sourceTree = "<group>";
+		};
+		C70F016B1BA00F89001930DB /* HACursor */ = {
+			isa = PBXGroup;
+			children = (
+				C70F016C1BA00F89001930DB /* HACursor.h */,
+				C70F016D1BA00F89001930DB /* HACursor.m */,
+				C70F016E1BA00F89001930DB /* HAItemManager.h */,
+				C70F016F1BA00F89001930DB /* HAItemManager.m */,
+				C70F01701BA00F89001930DB /* HARootScrollView */,
+				C70F01771BA00F89001930DB /* HAScrollNavBar.h */,
+				C70F01781BA00F89001930DB /* HAScrollNavBar.m */,
+				C70F01791BA00F89001930DB /* HASortButton.h */,
+				C70F017A1BA00F89001930DB /* HASortButton.m */,
+				C70F017B1BA00F89001930DB /* HASortItemView.h */,
+				C70F017C1BA00F89001930DB /* HASortItemView.m */,
+				C70F017D1BA00F89001930DB /* icons.bundle */,
+				C70F017E1BA00F89001930DB /* UIColor+RGBA.h */,
+				C70F017F1BA00F89001930DB /* UIColor+RGBA.m */,
+				C70F01801BA00F89001930DB /* UIView+Extension.h */,
+				C70F01811BA00F89001930DB /* UIView+Extension.m */,
+			);
+			path = HACursor;
+			sourceTree = "<group>";
+		};
+		C70F01701BA00F89001930DB /* HARootScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				C70F01711BA00F89001930DB /* HARootScrollView.h */,
+				C70F01721BA00F89001930DB /* HARootScrollView.m */,
+				C70F01731BA00F89001930DB /* HARootScrollViewCell.h */,
+				C70F01741BA00F89001930DB /* HARootScrollViewCell.m */,
+				C70F01751BA00F89001930DB /* HARootScrollViewManager.h */,
+				C70F01761BA00F89001930DB /* HARootScrollViewManager.m */,
+			);
+			path = HARootScrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C70F010F1BA003B4001930DB /* MLF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C70F01331BA003B4001930DB /* Build configuration list for PBXNativeTarget "MLF" */;
+			buildPhases = (
+				C70F010C1BA003B4001930DB /* Sources */,
+				C70F010D1BA003B4001930DB /* Frameworks */,
+				C70F010E1BA003B4001930DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLF;
+			productName = MLF;
+			productReference = C70F01101BA003B4001930DB /* MLF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C70F01281BA003B4001930DB /* MLFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C70F01361BA003B4001930DB /* Build configuration list for PBXNativeTarget "MLFTests" */;
+			buildPhases = (
+				C70F01251BA003B4001930DB /* Sources */,
+				C70F01261BA003B4001930DB /* Frameworks */,
+				C70F01271BA003B4001930DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C70F012B1BA003B4001930DB /* PBXTargetDependency */,
+			);
+			name = MLFTests;
+			productName = MLFTests;
+			productReference = C70F01291BA003B4001930DB /* MLFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C70F01081BA003B4001930DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = lanou;
+				TargetAttributes = {
+					C70F010F1BA003B4001930DB = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					C70F01281BA003B4001930DB = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = C70F010F1BA003B4001930DB;
+					};
+				};
+			};
+			buildConfigurationList = C70F010B1BA003B4001930DB /* Build configuration list for PBXProject "MLF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C70F01071BA003B4001930DB;
+			productRefGroup = C70F01111BA003B4001930DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C70F010F1BA003B4001930DB /* MLF */,
+				C70F01281BA003B4001930DB /* MLFTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C70F010E1BA003B4001930DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70F018A1BA00F89001930DB /* icons.bundle in Resources */,
+				C70F011F1BA003B4001930DB /* Main.storyboard in Resources */,
+				C70F01241BA003B4001930DB /* LaunchScreen.xib in Resources */,
+				C70F01211BA003B4001930DB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70F01271BA003B4001930DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C70F010C1BA003B4001930DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70F01831BA00F89001930DB /* HAItemManager.m in Sources */,
+				C70F013B1BA00438001930DB /* WelcomeViewController.m in Sources */,
+				C70F01841BA00F89001930DB /* HARootScrollView.m in Sources */,
+				C70F018C1BA00F89001930DB /* UIView+Extension.m in Sources */,
+				C70F01191BA003B4001930DB /* AppDelegate.m in Sources */,
+				C70F01851BA00F89001930DB /* HARootScrollViewCell.m in Sources */,
+				C70F01861BA00F89001930DB /* HARootScrollViewManager.m in Sources */,
+				C70F01661BA00EC6001930DB /* MainViewController.m in Sources */,
+				C70F019E1BA014EF001930DB /* StarFavorCollectionViewCell.m in Sources */,
+				C70F01871BA00F89001930DB /* HAScrollNavBar.m in Sources */,
+				C70F018B1BA00F89001930DB /* UIColor+RGBA.m in Sources */,
+				C70F015D1BA00B66001930DB /* StarFavorCollectionViewController.m in Sources */,
+				C70F01471BA0093C001930DB /* MLFNavigationController.m in Sources */,
+				C70F016A1BA00F0F001930DB /* WWSideslipViewController.m in Sources */,
+				C70F019B1BA01248001930DB /* SelectionTableViewController.m in Sources */,
+				C70F01631BA00B85001930DB /* SearchCollectionViewController.m in Sources */,
+				C70F01891BA00F89001930DB /* HASortItemView.m in Sources */,
+				C70F01981BA010D3001930DB /* SelectionTableView.m in Sources */,
+				C70F01A11BA01BF7001930DB /* SelectionDetailViewController.m in Sources */,
+				C70F01821BA00F89001930DB /* HACursor.m in Sources */,
+				C70F01161BA003B4001930DB /* main.m in Sources */,
+				C70F01601BA00B78001930DB /* CategoryCollectionViewController.m in Sources */,
+				C70F01A41BA01C9E001930DB /* SelectionTableViewCell.m in Sources */,
+				C70F01881BA00F89001930DB /* HASortButton.m in Sources */,
+				C70F01441BA008FA001930DB /* MLFTabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70F01251BA003B4001930DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70F01301BA003B4001930DB /* MLFTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C70F012B1BA003B4001930DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C70F010F1BA003B4001930DB /* MLF */;
+			targetProxy = C70F012A1BA003B4001930DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C70F011D1BA003B4001930DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C70F011E1BA003B4001930DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C70F01221BA003B4001930DB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C70F01231BA003B4001930DB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C70F01311BA003B4001930DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C70F01321BA003B4001930DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C70F01341BA003B4001930DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MLF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C70F01351BA003B4001930DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MLF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C70F01371BA003B4001930DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MLFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLF.app/MLF";
+			};
+			name = Debug;
+		};
+		C70F01381BA003B4001930DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MLFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLF.app/MLF";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C70F010B1BA003B4001930DB /* Build configuration list for PBXProject "MLF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C70F01311BA003B4001930DB /* Debug */,
+				C70F01321BA003B4001930DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C70F01331BA003B4001930DB /* Build configuration list for PBXNativeTarget "MLF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C70F01341BA003B4001930DB /* Debug */,
+				C70F01351BA003B4001930DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C70F01361BA003B4001930DB /* Build configuration list for PBXNativeTarget "MLFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C70F01371BA003B4001930DB /* Debug */,
+				C70F01381BA003B4001930DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C70F01081BA003B4001930DB /* Project object */;
+}

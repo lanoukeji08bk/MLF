@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>81A7D6B1-8D24-4A39-9F11-70F1AE2D1966</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MLF</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>336565E6AB130E37799D7D3E07868B0C0871B04B</key>
+		<string>https://git.oschina.net/hg424/MLF.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MLF/MLF.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>336565E6AB130E37799D7D3E07868B0C0871B04B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://git.oschina.net/hg424/MLF.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>336565E6AB130E37799D7D3E07868B0C0871B04B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>336565E6AB130E37799D7D3E07868B0C0871B04B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MLF</string>
+		</dict>
+	</array>
+</dict>
+</plist>
